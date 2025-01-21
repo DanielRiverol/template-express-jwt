@@ -1,6 +1,6 @@
 import passport from "passport";
 // install and import strategy (local, google,github,etc)
-import userModel from "../models/user.model";
+import userModel from "../models/user.model.js";
 const initializePassport = () => {
 
     //Strategies
