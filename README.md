@@ -1,4 +1,4 @@
-# Plantilla de servidor básico con Express
+# Plantilla de servidor básico con Express JWT 
 
 Este proyecto es una plantilla básica para configurar un servidor con **Express** y **Nodemon**, ideal para iniciar rápidamente nuevos desarrollos en Node.js.
 
@@ -25,7 +25,7 @@ npm install -g degit
 #### Clonar el repositorio
 
 ```bash
-degit DanielRiverol/template-express-passport carpeta-destino
+degit DanielRiverol/template-express-jwt carpeta-destino
 ```
 
 Reemplaza `usuario/repo-nombre` por el nombre del repositorio y `carpeta-destino` por el nombre de la carpeta donde deseas clonar el proyecto.
