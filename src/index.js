@@ -6,7 +6,7 @@ import connectDb from "./config/database.js";
 //settings
 const app = express();
 app.set("PORT", 3000);
-const uri = "mongodb://127.0.0.1:27217/database";
+const uri = "mongodb://127.0.0.1:27017/database";
 // middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -23,5 +23,5 @@ app.get("/", (req, res) => {
 //listeners
 connectDb(uri);
 app.listen(app.get("PORT"), () => {
-  console.log(`Server on port ${app.get("PORT")}`);
+  console.log(`Servidor escuchando en el puerto: ${app.get("PORT")}`);
 });
